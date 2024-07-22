@@ -1,0 +1,58 @@
+*{
+    font-family: "Berlin Sans FB";
+    /* text-transform: capitalize; */
+}
+    body{
+    background-image: url(lists-6131220_1920.jpg);
+}
+.result{
+    background-color: rgb(229, 223, 223);
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left:25%;
+    top:50px;
+   margin-bottom: 20px;
+
+}
+form{
+    position: relative;
+    left:30%;
+    top:7px;
+}
+.btn,#addBtn,.result .addBtn{
+       background-color: #F76C6A;color: white;
+}
+#addBtn,.result .addBtn{
+    position: relative;
+    right: 7%;
+    bottom:1px;
+}
+#task-name{
+  height: 68%;
+  margin-bottom: 20px;
+  background-color: #f79d89a7;
+  border: transparent;
+  border-radius: 100px;
+}
+#task-name:focus{
+border: transparent;
+}
+#results{
+    width:90%;
+    height:60px;
+    margin:10px ;
+    margin-left: 30px;
+
+}
+#ask{
+    width: 50%;
+    height: 150px;
+    margin-bottom: 100px;
+    position: relative;
+    left:25%;
+    top:100px;
+}
+#sub{
+    margin-top: 20px;
+}
